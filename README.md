@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# The Keys to the White House: Key Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This program tracks the likelihood of the two major party candidates winning the United States' presidential election. It uses the Keys to the White House by Allan Lichtman, a guide to predicting the next American president.
 
-## Available Scripts
+## What are the Keys to the White House?
+There are thirteen total keys as defined by Dr. Lichtman. They are statements about the incumbent candidate/party and challenger that are evaluated as being true or false. The incumbent candidate/party wants as few keys turned to false as possible, and the challenger wants as many keys turned to false as possible. If there are 6 keys or more turned to false, the challenger wins, and if there are 5 keys or less turned to false, the incumbent wins. 
 
-In the project directory, you can run:
+## Thirteen Keys:
+1. **Incumbent-party Mandate:** After the midterm elections, the incumbent party holds more seats in the U.S. House of Representatives than it did after the previous midterm elections.
+2. **Nomination Contest:** There is no serious contest for the incumbent-party nomination.
+3. **Incumbency:** The incumbent-party candidate is the sitting president.
+4. **Third Party:** There is no significant third-party or independent campaign.
+5. **Short-Term Economy:** The economy is not in recession during the election campaign.
+6. **Long-Term Economy:** Real annual per-capita economic growth during the term equals or exceeds mean growth during the two previous terms.
+7. **Policy Change:** The incumbent administration effects major changes in national policy.
+8. **Social Unrest:** There is no sustained social unrest during the incumbent's term.
+9. **Scandal:** The incumbent administation is untainted by major scandal.
+10. **Foreign or military failure:** The incumbent administraiton suffers no major failure in foreign or military affairs.
+11. **Foreign or military success:** The incumbent administraiton achieves a major success in foreign or military affairs.
+12. **Incumbent Charisma:** The incumbent-party candidate is charismatic or a national hero.
+13. **Challenger Charisma:** The challenging-party candidate is not charismatic or a national hero.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Controversy with the Keys
+Critics have claimed that some of the keys can be seen as subjective, such as whether a candidate is charismatic. For the sake of this project, I will be as objective as possible when turning keys. If you feel that a key should be turned when it isn't, you have the ability to turn the key yourself to see what the result would be with that key turned. 
