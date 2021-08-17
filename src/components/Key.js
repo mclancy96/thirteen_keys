@@ -2,11 +2,11 @@ import React, {Component} from 'react';
 
 class Key extends Component {
     render(){
-        const {keyOne} = this.state;
+        const {keyData} = this.props;
         return(
             <div className="container">
                 <div className="text-start">
-                    <h5>{keyOne.title}</h5>
+                    <h5>{keyData.title}</h5>
                 </div>
             </div>
         )
